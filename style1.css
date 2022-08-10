@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Roboto:ital@1&family=Splash&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.info {
+    background-color: aquamarine;
+    display: block;
+
+}
+li {
+    /* background-color: rgb(225, 75, 75); */
+    /* text-decoration: line-through; */
+    margin: auto;
+}
+
+.card-2 {
+    border: 3px solid saddlebrown;
+margin: auto;
+}
+
+
+* {
+    /* max-width: 80%; */
+    /* margin: auto; */
+    background: wheat;
+}
+img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    display: inline-block;
+
+}
+
+.btn:hover {
+    opacity: .8;
+    color: orange;
+}
+
+.card-3 {
+ text-align: center;
+}
+
+.grup input,
+.grup textarea {
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent;
+font-family: inherit;
+display: flex;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+    .card-1 {
+        display: block;
+        text-align: center;
+    }
+}
